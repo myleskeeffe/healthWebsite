@@ -30,9 +30,8 @@
         
         var token = readCookie("accessToken")
         if (token == "Assignment") {
-            alert('Granted');
         } else {
-            alert('Denied');
+            window.location.replace("//dontsmoke.ga/login");
         }
     </script>
     <title>Don't Smoke</title>
